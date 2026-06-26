@@ -1,8 +1,6 @@
 # 📈 Curso de Series de Tiempo con R
 
 [![R](https://img.shields.io/badge/R-%23276DC3.svg?style=flat&logo=r&logoColor=white)](https://www.r-project.org/)
-[![Estado](https://img.shields.io/badge/Estado-Activo-success)]()
-[![Licencia](https://img.shields.io/badge/Licencia-MIT-blue.svg)](LICENSE)
 
 ¡Bienvenido al repositorio oficial del **Curso de Análisis y Predicción de Series de Tiempo utilizando R**! Este espacio ha sido diseñado para recopilar todo el material teórico-práctico, scripts automatizados, conjuntos de datos reales y guías metodológicas necesarias para dominar el modelado de datos secuenciales y cronológicos.
 
@@ -77,32 +75,78 @@ Sigue estos pasos para clonar el proyecto y preparar tu entorno local:
 El contenido está estructurado de forma modular para facilitar el aprendizaje:
 
 ```text
-course_time_series_r/
-│
-├── data/                      # Conjuntos de datos reales (.csv, .rds)
-│   ├── ventas_mensuales.csv
-│   └── demanda_electrica.rds
-│
-├── 01_Introduccion/           # Manipulación de fechas con lubridate y objetos ts
-│   ├── 01_fechas_y_objetos_ts.R
-│   └── Tarea_1_Introduccion.R
-│
-├── 02_Analisis_Exploratorio/  # Descomposición, estacionariedad y funciones de autocorrelación
-│   ├── 02_descomposicion_y_acf.R
-│   └── 02_pruebas_estacionariedad.R
-│
-├── 03_Suavizado_Exponencial/  # Modelos de Holt, Holt-Winters y suavizado simple
-│   └── 03_metodos_suavizado.R
-│
-├── 04_Modelos_ARIMA/          # Identificación, estimación y diagnóstico SARIMA
-│   ├── 04_modelado_arima.R
-│   └── 04_diagnostico_residuos.R
-│
-├── scripts/                   # Funciones personalizadas y utilidades globales
-│   └── graficos_auxiliares.R
-│
-└── README.md                  # Archivo de presentación (este archivo)
 ```
+└── 📁course_time_series_r
+    └── 📁L00-Review
+        └── 📁Review_Estadística
+            └── 📁Scripts
+                ├── L0X-Challenge.R
+                ├── S1-Regresión.R
+            ├── 0B-Repaso_Estadística.pdf
+        └── 📁Review_R
+            └── 📁Scripts
+                ├── S0-Programando_un_Algoritmo.R
+                ├── S1-Tipos_de_Datos.R
+                ├── S2-Vectores_y_Matrices.R
+                ├── S3-Factores_Listas_DataFrames.R
+                ├── S4-Control.R
+                ├── S5-Datos_y_Estadística.R
+            ├── L0-Repaso.pdf
+    └── 📁L01-Intro_TS
+        └── 📁Scripts
+            ├── L1X_Challenge.R
+            ├── S1.1_ST_Ejemplos.R
+        ├── L1-Intro_TS.pdf
+    └── 📁L02-Nociones_Básicas
+        └── 📁Scripts
+            ├── S2.1-Modelos_Básicos.R
+            ├── S2.2-Simulaciones.R
+            ├── S2.3-Análisis_Caso_HP.R
+        ├── L2-Nociones.pdf
+    └── 📁L03-ETSDA
+        └── 📁Scripts
+            ├── L3X_Challenge.R
+            ├── S3.1-Descomp.R
+            ├── S3.2-Toolbox_Forecasting.R
+        ├── L3-ETSDA.pdf
+    └── 📁L04-Transform_Suavizamiento
+        └── 📁Scripts
+            ├── S4.1-Transform.R
+            ├── S4.2-Suavizamiento.R
+        ├── L4-TranSmooth.pdf
+    └── 📁L05-Regresión
+        └── 📁Scripts
+            ├── S5.1-RegresiónClásica.R
+            ├── S5.2-RegresiónST.R
+        ├── L5-Regresión.pdf
+    └── 📁L06-Modelos_ARMA
+        └── 📁Scripts
+            ├── S6.1-ARMA.R
+        ├── L6-Modelos_ARMA.pdf
+    └── 📁L07-Modelos_ARIMA
+        └── 📁Scripts
+            ├── L7X_Challenge.R
+            ├── S7.1-Modelos_ARIMA.R
+            ├── S7.2-Resumen.R
+        ├── L7-Modelos_ARIMA.pdf
+    └── 📁L08-Volatilidad
+        └── 📁Scripts
+            ├── S8.1-GARCH.R
+        ├── L8-Volatilidad.pdf
+    └── 📁L09-Series_Multivariadas
+        └── 📁Scripts
+            ├── S9.1-Regresiones_Espurias.R
+            ├── S9.2-Cointegracion.Rmd
+        ├── L9-Series_Multivariadas.pdf
+    └── 📁L10-Modelos_VAR
+        └── 📁Scripts
+            ├── S10.1-VAR.R
+        ├── L10-Modelos_VAR.pdf
+    └── README.md
+```
+```
+
+***NOTA: Los archivos de datos no están contenidos en este repositorio, en caso de requerirlos es necesario contactar al autor***
 
 ---
 
