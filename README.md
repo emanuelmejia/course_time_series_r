@@ -75,7 +75,6 @@ Sigue estos pasos para clonar el proyecto y preparar tu entorno local:
 El contenido está estructurado de forma modular para facilitar el aprendizaje:
 
 ```text
-```
 └── 📁course_time_series_r
     └── 📁L00-Review
         └── 📁Review_Estadística
@@ -143,7 +142,6 @@ El contenido está estructurado de forma modular para facilitar el aprendizaje:
             ├── S10.1-VAR.R
         ├── L10-Modelos_VAR.pdf
     └── README.md
-```
 ```
 
 ***NOTA: Los archivos de datos no están contenidos en este repositorio, en caso de requerirlos es necesario contactar al autor***
